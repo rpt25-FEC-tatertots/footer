@@ -1,0 +1,19 @@
+{
+  "name": "footer",
+  "version": "1.0.0",
+  "description": "Footer for Patagonia Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpt25-FEC-tatertots/footer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpt25-FEC-tatertots/footer/issues"
+  },
+  "homepage": "https://github.com/rpt25-FEC-tatertots/footer#readme"
+}
