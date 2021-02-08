@@ -102,7 +102,7 @@ function FooterComponent() {
           </div>
         </InfoContainer>
         <InfoContainer>
-          <h2>Need Help?</h2>
+        <h2>Subscribe</h2>
           <ul style={{padding: "0px"}}>
             <StyledHelpListContent>Help Center</StyledHelpListContent>
             <StyledHelpListContent>Order Status</StyledHelpListContent>
