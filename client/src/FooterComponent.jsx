@@ -37,7 +37,19 @@ const MoreInfoOptionsContainer = styled.div`
 const MoreInfoOptionsColumn = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   color: #444;
+  height: auto;
+`;
+
+const StyledHelpListContent = styled.li`
+  list-style-type: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5rem;
+  margin: 10px 0px;
+  padding: 5px 32px;
+  width: fit-content;
 `;
 
 function FooterComponent() {
@@ -56,12 +68,12 @@ function FooterComponent() {
         </InfoContainer>
         <InfoContainer>
           <h2>Need Help?</h2>
-          <ul>
-            <li>Help Center</li>
-            <li>Order Status</li>
-            <li>Returns and Exchanges</li>
-            <li>Porudct Care and Repair</li>
-            <li>Login</li>
+          <ul style={{padding: "0px"}}>
+            <StyledHelpListContent>Help Center</StyledHelpListContent>
+            <StyledHelpListContent>Order Status</StyledHelpListContent>
+            <StyledHelpListContent>Returns and Exchanges</StyledHelpListContent>
+            <StyledHelpListContent>Porudct Care and Repair</StyledHelpListContent>
+            <StyledHelpListContent>Login</StyledHelpListContent>
           </ul>
         </InfoContainer>
         <InfoContainer>
