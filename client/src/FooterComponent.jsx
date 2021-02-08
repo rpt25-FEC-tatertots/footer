@@ -13,6 +13,7 @@ const TopHalfContainer = styled.div`
   justify-content: space-around;
   margin-right: -10px;
   margin-left: -10px;
+  padding: 0rem 4rem;
 `;
 
 const BottomHalfContainer = styled.div`
@@ -21,8 +22,7 @@ const BottomHalfContainer = styled.div`
   flex: 1 0 100%;
   justify-content: space-around;
   text-align: left;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding: 0rem 4rem;
 `;
 
 const InfoContainer = styled.div`
@@ -50,6 +50,33 @@ const StyledHelpListContent = styled.li`
   margin: 10px 0px;
   padding: 5px 32px;
   width: fit-content;
+  font-weight: bold;
+`;
+
+const EmailForm = styled.form`
+  padding-top: 2rem;
+  border-color: white;
+  border-bottom: solid;
+  width: fit-content;
+`;
+
+const EmailInput = styled.input`
+  background-color: transparent;
+  border-style: solid;
+  border-color: transparent;
+  color: white;
+`;
+
+const SignMeUp = styled.div`
+  border-style: solid;
+  border-color: white;
+  border-radius: 5rem;
+  margin: 4rem 0rem;
+  padding: 5px 32px;
+  width: fit-content;
+  color: black;
+  background-color: white;
+  font-weight: bold;
 `;
 
 function FooterComponent() {
@@ -64,7 +91,15 @@ function FooterComponent() {
       <BottomHalfContainer>
         <InfoContainer>
           <h2>Subscribe</h2>
-          <div>Sign up for exclusive offers, original stories, activism awareness, events and more.</div>
+          <div>
+            <div>Sign up for exclusive offers, original stories, activism awareness, events and more.</div>
+            <EmailForm>
+              <label>
+                <EmailInput type='text' placeholder="Email Address" />
+              </label>
+            </EmailForm>
+            <SignMeUp >Sign Me Up</SignMeUp>
+          </div>
         </InfoContainer>
         <InfoContainer>
           <h2>Need Help?</h2>
